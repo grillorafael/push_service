@@ -1,0 +1,25 @@
+{
+  "name": "push_service",
+  "version": "0.1.0",
+  "description": "A Node module that helps you send push notifications",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:grillorafael/push_service.git"
+  },
+  "author": "Rafael Grillo Abreu <grillorafael@gmail.com> (http://rgrillo.com/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/grillorafael/push_service/issues"
+  },
+  "homepage": "https://github.com/grillorafael/push_service",
+  "dependencies": {
+    "apn": "^1.6.2",
+    "node-gcm": "^0.9.12",
+    "q": "^1.0.1",
+    "underscore": "^1.7.0"
+  }
+}
